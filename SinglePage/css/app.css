@@ -1,0 +1,179 @@
+
+body {
+
+    background: rgb(207, 207, 125);
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: url(../assets/images/headerBkg.jpg);
+    background: contain;
+    background-position: -90px -300px;
+    border-bottom: 2px solid #000;
+    color: #360713;
+    font-size: 1.2em;
+    text-shadow: 0 0 3px #0c0c0c;
+}
+
+#logo {
+    position: absolute;
+    z-index: 5;
+    left: 8%;
+    top: 30px;
+}
+
+nav{
+ width: 100%;
+ height: 50px;
+ padding-top: 5px;
+ font-family: 'Raleway', sans-serif;
+ text-align: center; 
+ background: rgb(16, 77, 77);
+ border-bottom: 2px solid #000;
+}
+
+a {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #ccc;
+    margin: 0 13px;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: #00f;
+}
+main{
+    width: calc(100% - 10px);
+    height: 600px;
+    background: #fff; 
+    text-align: center; 
+    padding: 5px; 
+    font-size: .8em;
+    background: contain;
+}
+#companyDetails {
+    margin: 0 auto;
+}
+#companyDetails thead {
+    background: #2e3630;
+}
+td {
+    border: 1px solid #3b2a15;
+    padding: 10px 20px;
+}
+#companyDetails tr {
+    width: 80%;
+    margin: 0 auto;
+    background: #ccf;
+}
+#companyDetails tr:nth-child(odd) {
+    background: #6ff190;
+}
+
+#contactForm {
+    width: 250px;
+    height: 200;
+    position: absolute;
+    bottom: -100px;
+    left: 100px;
+    background: #a1332b;
+    border-radius: 5px;
+    cursor: crosshair;
+
+}
+.backgroundImage {
+        width: 80%;
+        height: 550px;    
+        margin: 10px 5%;
+        padding: 10px;
+        padding-top: 5px;
+        z-index: 5;
+        background: url(../assets/images/mainBkg.jpg);
+}
+#indexPageBkg {
+    height: 580px;
+    padding-top: 20px;
+    background: url(../assets/images/indexBkg.jpg);
+}
+
+#aboutPageBkg{
+    height: 550px;    
+    padding-top: 20px;
+    background: url(../assets/images/aboutpic.jpg);
+}
+
+#projectPageBkg {
+    background: url(../assets/images/mainBkg.jpg);
+    height: 580px;
+    padding-top: 20px;
+}
+#contactPageBkg {
+    background: url(../assets/images/contactpic.jpg);
+    height: 580px;
+    padding-top: 20px;  
+}
+#teamPageBkg {
+    background: url(../assets/images/teampic.jpg);
+    height: 580px;
+    padding-top: 20px;    
+}
+#abstractPageBkg {
+    background: url(../assets/images/abstractpic.jpg);
+    height: 580px;
+    padding: 5px; 
+       
+}
+    #leftMain {
+        width: 45%;
+        height: 570px;
+        background: #786a80;
+        float: left;
+        text-align: center;
+        font-size: 1.1em;
+        padding: 5px;
+        color: #ccf;
+        background: linear-gradient(to top, #f8a782, rgb(172, 212, 97));         
+        text-shadow: 0 0 3px #0c130e;
+        border-radius: 5px;
+    }
+    
+    .productImage {
+        width: 430px;
+        height: 240px; 
+        padding: 3px;
+        border-radius: 5px;
+    }
+   
+    #rightMain {
+        width: 45%;
+        height: 570px;
+        background: #786a80;
+        float: right;
+        text-align: center;
+        font-size: 1.1em;
+        padding: 5px;
+        color: #ccf;
+        background: linear-gradient(to top, #f8a782, rgb(172, 212, 97));         
+        text-shadow: 0 0 3px #0c130e;
+        border-radius: 5px;
+    }
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(77, 67, 67);
+    font-weight: 400;
+    padding-top: 5px;
+    color: #ccc;
+    border-radius: 0 0 20px 20px;
+}
+.greenText {
+    color: #20be12;
+}
